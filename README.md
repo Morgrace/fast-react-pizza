@@ -1,12 +1,29 @@
-# React + Vite
+# 🍕 Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, blazing-fast pizza ordering web app built with React and React Router. Designed to give a smooth, real-world experience of handling forms, state, and data flow in a frontend application.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🍽️ Dynamic Menu Page with API Data
+- 🛒 Cart Management using Redux Toolkit
+- 🧾 Order Creation with Form Handling
+- 📌 Update Order Priority with `useFetcher` (React Router v6.4+)
+- ⚡ Responsive Design with Elegant UI
+- 🔁 Interacts with a REST API for data persistence
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **React Router (v6.4+)**
+- **Redux Toolkit**
+- **Vite** (for fast development)
+- **REST API** (custom)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Morgrace/fast-react-pizza.git
+cd fast-react-pizza
+npm install
+npm run dev
+```
